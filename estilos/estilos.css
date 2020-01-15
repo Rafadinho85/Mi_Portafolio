@@ -29,3 +29,19 @@ header {
     height: 100vh;
     background-size: cover;
 }
+#contenedor-titulo-flex {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+}
+h1{
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+}
+h2{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    
+}
