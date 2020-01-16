@@ -1,11 +1,11 @@
 body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+    margin: 0; /*margenes*/
+    font-family: 'Poppins', sans-serif;/*tipografia*/
 }
 
 header .contenedor {
-    display: flex;
-    justify-content: space-around;
+    display: flex; /*ordenar los elementos a izquierda*/
+    justify-content: space-around; /*espacios entre elementos*/
 }
 
 header ul{
@@ -13,11 +13,11 @@ header ul{
 }
 
 header ul li {
-    list-style: none;
-    margin-right: 15px;
+    list-style: none; /*eliminamos estilos de lista*/
+    margin-right: 15px; 
 }
 a {
-    text-decoration: none;
+    text-decoration: none; /*quitamos subrayado */
 }
 .contenedor {
     max-width: 1280px;
@@ -49,7 +49,7 @@ h2{
 .contenedor-titulo {
     text-align: center;
 }
-.contenedor-titulo a {
+.contenedor-titulo a, #sobre-mi a{
     font-size: 14px;
     color: #ffffff;
     background: #5cb8ff;
@@ -63,4 +63,20 @@ p.logo {
 }
 nav ul li a {
     color: #ffffff;
+}
+/*SECCION DE SOBRE MI*/
+
+ h3 {
+    text-align: center; /*nos permite centrar el texto*/
+    font-size: 50px;    /*tamaño letra*/
+    font-weight: normal;
+}
+
+#sobre-mi .contenedor-sobremi{
+    display: flex ;
+    justify-content: space-around;
+}
+#sobre-mi .texto{
+    width: 42%;
+    
 }
