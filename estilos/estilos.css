@@ -87,7 +87,8 @@ nav ul li a {
 
 }
 .servicio {
-    width: 30%
+    width: 30%;
+    padding: 34px 30px 38px 30px;
 }
 .servicio h4 {
     font-size: 30px;
@@ -100,8 +101,8 @@ nav ul li a {
 .contenedor-servicios .violeta {
 background: 
 linear-gradient(to top, #5055DF,
-#6d68f3);
-box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);    
+#6d68f3);/*to top nos indica que el gradiente vaya de abajo hacia arriba*/
+box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);/*sombra de la caja */    
 }
 .contenedor-servicios .celeste {
 background: 
