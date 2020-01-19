@@ -83,12 +83,16 @@ nav ul li a {
 /*SECCION SERVICIOS*/
 .contenedor-servicios{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;/*si detecta que el contenido esta ocupando mucho lugar que pase a la siguiente linea*/
-
+    color: #ffffff;
 }
 .servicio {
-    width: 30%;
+    width: 24%;
     padding: 34px 30px 38px 30px;
+    border-radius: 10px;/*para dar un borde redondeando en las esquinas*/
+    margin-bottom:40px;/*dar espacio hacia los elementos de abajo*/
+    position: relative;   
 }
 .servicio h4 {
     font-size: 30px;
@@ -111,5 +115,12 @@ linear-gradient(to top, #40a8f9,
 box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);    
 }
 
-
+.ondas {
+    position: absolute;/*nos permite definir la posicion absoluta de la imagen solo funciona si en el elemento tenemos position relative */
+    left: 0;
+    bottom: 0;
+}
+.icono {
+     float: right; //floten hacia la derecha
+}
 
