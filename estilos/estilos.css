@@ -128,8 +128,33 @@ box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
 SECCION MIS TRABAJOS
 */
 button.owl-prev, button.owl-next {
-    font-size: 40px !important;
+    font-size: 40px !important;/*TAMAÑO DE LA FUENTE Y !IMPORTANT SIGNIFICA QUE ESTE ESTILO ES MAS IMPORTANTE */
 }
 span {
     color: rgba(84,93,220,.9);
 }
+/*
+SECCION POR QUE TRABAJAR CONMIGO
+*/
+.contenedor-trabajar {
+    display: flex; /*pone los elementos en horizontal*/
+    flex-wrap: wrap; /*si detecta que los elementos ocupan mucho lugar lo pasan para la siguiente linea*/
+    justify-content: space-around; /*crear espacio entre los items*/
+}
+#por-que-trabajar .item {/*hacemos esto para achicar los items y que se queden en una misma con el flex-wrap*/
+    width: 28%;
+    text-align: center;
+}
+#por-que-trabajar ul li {
+    list-style: none;
+}
+#por-que-trabajar ul li:nth-child(2) {/*aplicamos los cambios al elemento hijo numero 2*/
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#por-que-trabajar ul li:nth-child(3) {/*aplicamos los cambios al elemento hijo numero 2*/
+    line-height: 31px;/*line-height es el alto de linea*/;
+}
+
