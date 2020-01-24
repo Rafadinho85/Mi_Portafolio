@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 18vh 0;
-    max-width: 1580px;
+    max-width: 2040px;
     width: 100%;
 }
 h1{
@@ -49,7 +49,9 @@ h2{
 .contenedor-titulo {
     text-align: center;
 }
-.contenedor-titulo a, #sobre-mi a, #blog a, #que-esperas a{
+.contenedor-titulo a, #sobre-mi a, #blog a, #que-esperas a,
+#contacto input[type="submit"]
+{
     font-size: 14px;
     color: #ffffff;
     background: #5cb8ff;
@@ -202,4 +204,35 @@ SECCION POR QUE TRABAJAR CONMIGO
 #que-esperas h3 {
     font-size: 23px;
     color: #ffffff;
+}
+/* SECCION CONTACTO*/
+
+#contacto form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+}
+input[type="text"], input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 2px solid #5cb8ff;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+textarea {
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 2px solid #5cb8ff;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+#contacto input[type="submit"]{
+    width: 166px;
+    margin: auto;
 }
