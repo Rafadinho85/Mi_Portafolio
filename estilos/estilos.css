@@ -49,7 +49,7 @@ h2{
 .contenedor-titulo {
     text-align: center;
 }
-.contenedor-titulo a, #sobre-mi a, #blog a{
+.contenedor-titulo a, #sobre-mi a, #blog a, #que-esperas a{
     font-size: 14px;
     color: #ffffff;
     background: #5cb8ff;
@@ -188,4 +188,18 @@ SECCION POR QUE TRABAJAR CONMIGO
 }
 #blog a {
    width: 87;
+}
+
+/*SECCION QUE ESPERAS*/
+
+#que-esperas {
+    background: linear-gradient(rgba(84,93,220,.94),
+    rgba(96,171,245,.9));
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+}
+#que-esperas h3 {
+    font-size: 23px;
+    color: #ffffff;
 }
