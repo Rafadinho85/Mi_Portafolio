@@ -49,7 +49,7 @@ h2{
 .contenedor-titulo {
     text-align: center;
 }
-.contenedor-titulo a, #sobre-mi a{
+.contenedor-titulo a, #sobre-mi a, #blog a{
     font-size: 14px;
     color: #ffffff;
     background: #5cb8ff;
@@ -157,4 +157,35 @@ SECCION POR QUE TRABAJAR CONMIGO
 #por-que-trabajar ul li:nth-child(3) {/*aplicamos los cambios al elemento hijo numero 2*/
     line-height: 31px;/*line-height es el alto de linea*/;
 }
-
+/*SECCION DEL BLOG*/
+#blog {
+    background: #F9FAFC;
+}
+#blog .contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+#blog .publicacion {
+   width: 30%;
+   box-shadow: 1px 1px 14px #ccc;/*sombra*/
+}
+#blog img {
+    width: 100%;
+}
+#blog .contenido {
+    background: #ffffff;
+    padding: 20px;
+}
+#blog h4 {
+    font-size: 23px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+#blog p {
+    color: #5A6169;
+    line-height: 24px;
+    font-size: 16px;
+}
+#blog a {
+   width: 87;
+}
