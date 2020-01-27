@@ -273,3 +273,9 @@ footer p {
     color: #ffffff;
     margin-top: 40px;
 }
+/*seccion boton whatsapp*/
+#whatsapp {
+    position: fixed;
+    top: 85%;
+    right: 5%;
+}
